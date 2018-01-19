@@ -7,8 +7,8 @@ class School
   end
 
   def add_student(name, grade)
-    @roster[grade]=[]
-    @roster[grade] << name
+    hash[grade]=[]
+    hash[grade] << name
   end
 
   def initialize(title)
