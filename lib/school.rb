@@ -1,2 +1,8 @@
 # code here!
-school = School.new("Bayside High School")
+
+class School
+  def new(*args)
+    print "School name is",*args,"\n"
+  end
+  
+end
