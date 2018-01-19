@@ -3,12 +3,16 @@
 class School
 
   def roster
-    @roster = []
+    @roster = {}
   end
 
   def add_student(name, grade)
-    hash[grade]=[]
-    hash[grade] << name
+    if @roster[grade].empty?
+    @roster[grade]=[]
+    @roster[grade] << name
+    else
+      @roster[grade] << name
+
   end
 
   def initialize(title)
