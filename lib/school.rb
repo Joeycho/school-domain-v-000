@@ -7,7 +7,7 @@ class School
   end
 
   def initialize(title)
-    
+
   end
 
 end
